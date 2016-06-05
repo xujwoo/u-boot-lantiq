@@ -121,4 +121,10 @@ config CLK_MPC83XX
 	help
 	  Support for the clock driver of the MPC83xx series of SoCs.
 
+config CLK_XWAY
+	bool "Enable clock driver support for Intel XWAY SoCs"
+	depends on CLK && ARCH_INTEL_XWAY
+	help
+	  This clock driver adds support for clocks on Intel XWAY SoCs.
+
 endmenu
