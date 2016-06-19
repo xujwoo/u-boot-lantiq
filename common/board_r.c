@@ -8,7 +8,7 @@
  * Sysgo Real-Time Solutions, GmbH <www.elinos.com>
  * Marius Groeger <mgroeger@sysgo.de>
  */
-
+#define DEBUG
 #include <common.h>
 #include <api.h>
 /* TODO: can we just include all these headers whether needed or not? */
